@@ -1,7 +1,7 @@
 import React from 'react';
 import Member from './member';
 
-function ChungFamily(props) {
+export default props => {
     return (
         <div>
         <Member name='Camila' lastName='Chung' />
@@ -12,4 +12,3 @@ function ChungFamily(props) {
     );
 }
   
-export default ChungFamily;

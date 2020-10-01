@@ -1,11 +1,10 @@
 import React from 'react';
 
-function Member(props) {
+export default props => {
     return (
         <div>
          {props.name} {props.lastName}
         </div>
     );
-  }
+}
   
-  export default Member;
