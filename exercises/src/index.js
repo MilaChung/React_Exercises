@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Primeiro, Segundo } from './components/component'
+import ChungFamily from './components/chungFamily';
 
 ReactDOM.render(
-  <div>
-    <Primeiro />
-    <Segundo />
-  </div>,
+  <ChungFamily />,
   document.getElementById('root')
 );
 
