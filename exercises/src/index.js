@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { Primeiro, Segundo } from './components/component'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App value='Chung!'/>
-  </React.StrictMode>,
+  <div>
+    <Primeiro />
+    <Segundo />
+  </div>,
   document.getElementById('root')
 );
 
