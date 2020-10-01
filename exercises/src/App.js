@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <h1>Olá Mundo!!</h1>
+      <h1>{props.value}</h1>
     </div>
   );
 }
