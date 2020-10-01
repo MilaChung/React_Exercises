@@ -4,7 +4,8 @@ export default props => {
     return (
         <div>
             <h1> Família </h1>
-            {props.children}
+            { React.Children.map(props.children,
+                child => React.cloneElement(child, {...props})) }
         </div>
     );
 }

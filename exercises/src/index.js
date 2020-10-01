@@ -7,6 +7,9 @@ import Member from './components/member';
 ReactDOM.render(
   <Family lastName='Chung'>
     <Member name='Camila'/>
+    <Member name='Juliana'/>
+    <Member name='Sônia'/>
+    <Member name='Júlio'/>
   </Family>,
   document.getElementById('root')
 );
