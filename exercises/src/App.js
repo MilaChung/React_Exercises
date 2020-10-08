@@ -1,12 +1,14 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
+import Data from "./components/data";
 
-function App(props) {
+export default function App() {
+  const [text, setTex] = useState(" ");
+
   return (
-    <div className="App">
-      <h1>{props.value}</h1>
+    <div>
+      <Data label="Enter Language" onChange={setTex} value={text} />
     </div>
   );
 }
 
-export default App;
+
